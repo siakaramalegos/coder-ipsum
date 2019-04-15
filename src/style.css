@@ -1,0 +1,53 @@
+/* Globals */
+html {
+  color: #333;
+  font-size: 16px;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  height: 100%;}
+body {
+  margin: 0;
+  height: 100%;}
+
+/* Overall layout */
+.container {
+  max-width: 1140px;
+  min-height: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  position: relative;}
+.header {
+  box-sizing: border-box;
+  margin: 3em 0;
+  padding: 1px;}
+.header img {
+  float: left;
+  margin: 21px 20px 0 0;}
+@media (min-width: 1180px) {
+  .container {
+    padding: 0;
+  }
+}
+
+/* Typography */
+.title {
+  font-size: 3em;
+  margin-bottom: 0;}
+.subtitle {
+  color: #555;
+  font-weight: normal;
+  margin-top: 0;}
+
+/* links */
+a {
+  border-bottom: 1px solid rgb(224, 214, 235);
+  box-shadow: rgb(224, 214, 235) 0px -2px 0px 0px inset;
+  color: rebeccapurple;
+  margin-right: 0.2rem;
+  text-decoration: none;
+  -webkit-transition: color .15s ease;
+  -moz-transition: color .15s ease;
+  transition: color .15s ease; }
+a:hover {
+  background: rgb(224, 214, 235);
+  text-shadow: none;
+  border: none; }

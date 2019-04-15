@@ -1,3 +1,4 @@
+require('./style.css')
 import sampleSize from 'lodash/sampleSize'
 const words = require('./words.json')
 
