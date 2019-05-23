@@ -11,9 +11,8 @@ body {
 /* Overall layout */
 .container {
   max-width: 1140px;
-  min-height: 100%;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 20px;
   position: relative;}
 .header {
   box-sizing: border-box;
@@ -51,3 +50,27 @@ a:hover {
   background: rgb(224, 214, 235);
   text-shadow: none;
   border: none; }
+
+/* buttons */
+button {
+  background-color: rebeccapurple;
+  border: none;
+  color: white;
+  font-size: 1em;
+  margin: 0 8px;
+  padding: 8px;}
+button:hover {
+  background-color: #7547a3;}
+
+/* inputs */
+input {
+  font-size: 1em;
+  margin: 8px 0;
+  padding: 8px;}
+label {
+  font-weight: 700;
+  margin: 8px 0;}
+
+/* Custom */
+.output {
+  margin-bottom: 2em;}
