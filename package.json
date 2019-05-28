@@ -10,5 +10,8 @@
     "ipsum"
   ],
   "author": "Sia Karamalegos",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
 }
