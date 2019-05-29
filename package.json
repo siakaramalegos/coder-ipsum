@@ -1,7 +1,7 @@
 {
-  "name": "coder-ipsum",
+  "name": "coder-ipsum-website",
   "version": "1.0.0",
-  "description": "Generate coder-inspired ipsum text",
+  "description": "Website for generating coder-inspired ipsum text using the coder-ipsum npm package",
   "scripts": {
     "start": "NODE_ENV=development webpack-dev-server",
     "build": "webpack -p && touch dist/.nojekyll",
@@ -10,7 +10,7 @@
   "author": "Sia Karamalegos",
   "license": "MIT",
   "dependencies": {
-    "lodash": "^4.17.11"
+    "coder-ipsum": "^1.0.1"
   },
   "devDependencies": {
     "clean-webpack-plugin": "^2.0.1",
