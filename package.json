@@ -4,7 +4,7 @@
   "description": "Programming-inspired ipsum generator",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "keywords": [
     "ipsum"
@@ -13,5 +13,9 @@
   "license": "MIT",
   "dependencies": {
     "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4"
   }
 }
