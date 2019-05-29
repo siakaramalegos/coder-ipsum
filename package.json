@@ -4,6 +4,8 @@
   "description": "Programming-inspired ipsum generator",
   "main": "index.js",
   "repository": "https://github.com/siakaramalegos/coder-ipsum",
+  "homepage": "https://siakaramalegos.github.io/coder-ipsum-website/",
+  "bugs": "https://github.com/siakaramalegos/coder-ipsum/issues",
   "scripts": {
     "test": "mocha"
   },
