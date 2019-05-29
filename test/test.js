@@ -57,10 +57,10 @@ describe('coder-ipsum', function () {
     it('should have a length greater than 12', function () {
       expect(paragraph(3)).to.have.lengthOf.above(12);
     });
-    it('should have three periods for three sentences', function () {
-      // If any of the input words has a period, this test will fail sometimes.
+    it('should have at least three periods for three sentences', function () {
+      // Some words have a period.
       const numPeriods = (paragraph(3).match(/\./g) || []).length
-      expect(numPeriods).to.equal(3);
+      expect(numPeriods).to.be.at.least(3);
     });
   });
 });
