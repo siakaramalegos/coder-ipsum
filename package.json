@@ -1,6 +1,6 @@
 {
   "name": "coder-ipsum",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Programming-inspired ipsum generator",
   "main": "index.js",
   "repository": "https://github.com/siakaramalegos/coder-ipsum",
