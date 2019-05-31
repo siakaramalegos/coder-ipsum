@@ -1,6 +1,6 @@
 # coder-ipsum
 
-Coder Ipsum is a programming-inspired ipsum generator. You can see it live at [siakaramalegos.github.io/coder-ipsum/](https://siakaramalegos.github.io/coder-ipsum/). This npm package exposes the API to use in your projects directly.
+Coder Ipsum is a programming-inspired ipsum generator. You can see it live at [coder-ipsum.tech//](http://coder-ipsum.tech/). This npm package exposes the API to use in your projects directly.
 
 # Installing
 
