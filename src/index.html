@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <title>Coder Ipsum</title>
+  <meta name="description" content="A coder-inspired ipsum generator. Replace boring lorem ipsum with thought-leadership synergistic programming words." />
   <link rel="stylesheet" href="./style.css">
 </head>
 
@@ -33,6 +34,16 @@
     </form>
 
     <div id="paragraph-output" class="output"></div>
+
+    <form id="madlibs-form">
+      <label>
+        Number of mad libs<br />
+        <input name="madlibs-count" id="madlibs-count" type="number" />
+      </label>
+      <button>Compile me</button>
+    </form>
+
+    <div id="madlibs-output" class="output"></div>
   </main>
   <footer class="container">
     <p><a href="https://github.com/siakaramalegos/coder-ipsum"><img src="./github.svg" width="16px"/> Source</a></p>
