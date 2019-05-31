@@ -18,21 +18,23 @@ ES5:
 const phrase = require('coder-ipsum').phrase
 const sentence = require('coder-ipsum').sentence
 const paragraph = require('coder-ipsum').paragraph
+const madLib = require('coder-ipsum').madLib
 ```
 
 ES6:
 
 ```javascript
-import { phrase, sentence, paragraph } from 'coder-ipsum'
+import { phrase, sentence, paragraph, madLib } from 'coder-ipsum'
 ```
 
 ## API
 
-The API includes 3 functions:
+The API includes 4 functions:
 
 - `phrase` - Returns a String of a set of unformatted coder ipsum "words". Optionally input the number of "words" to include.
 - `sentence` - Returns a String of a set of coder ipsum "words" in the format of a sentence - with capitalization and period punctionation. Optionally input the number of "words" to include.
 - `paragraph` - Returns a String of a set of coder ipsum "words" in the format of a paragraph with multiple sentences, including capitalization and period punctionation. Optionally input the number of sentences to include. Sentences will have 6-10 "words" each.
+- `madLib` - Returns a string of a Mad-Libs-like fake sentence with nouns, verbs, adjectives, etc., using the same base word set of coder-inspired language.
 
 **Note that some "words" are more than one word like "Lil' Bobby Tables".**
 
@@ -49,6 +51,9 @@ const mySentence = sentence(7)
 
 const myParagraph = paragraph(2)
 // => Byzantine fault tolerance S3 homebrew spy object library callback hell flexbox idiosyncratic contexts scale gradle. Mock dynamic types GraphQL domain specific language modern bundle terminal proof of stake AWS responsive.
+
+const madLibs = paragraph(2)
+// => If we promise the void, we can get to the S3 module through the stateless big O microservice!
 ```
 
 ## The Story
