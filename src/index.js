@@ -41,8 +41,7 @@ document.getElementById('paragraph-form').onsubmit = function (e) {
 
 document.getElementById('madlibs-form').onsubmit = function (e) {
   e.preventDefault()
-  const count = parseInt(document.getElementById('madlibs-count').value, 10)
-  const paragraphNodes = getMadLibParagraphElements(count)
+  const paragraphNodes = getMadLibParagraphElements(1)
   const outputContainer = document.querySelector('#madlibs-output')
 
   // Clear output and then replace with new paragraphs
