@@ -43,7 +43,7 @@ const templates = [
   `You can't ${verb()} the ${noun()} without ${gerund()} the ${adjective()} ${abbreviation()} ${noun()}!`,
   `Use the ${adjective()} ${abbreviation()} ${noun()}, then you can ${verb()} the ${adjective()} ${noun()}!`,
   `The ${abbreviation()} ${noun()} is down, ${verb()} the ${adjective()} ${noun()} so we can ${verb()} the ${abbreviation()} ${noun()}!`,
-  `${gerund()} the ${noun()} won't do anything, we need to ${verb()} the ${adjective()} ${abbreviation()} ${noun()}!`.capitalize,
+  `So ${gerund()} the ${noun()} won't do anything, we need to ${verb()} the ${adjective()} ${abbreviation()} ${noun()}!`,
   `I'll ${verb()} the ${adjective()} ${abbreviation()} ${noun()}, that should ${noun()} the ${abbreviation()} ${noun()}!`
 ]
 
