@@ -10,7 +10,7 @@
   "author": "Sia Karamalegos",
   "license": "MIT",
   "dependencies": {
-    "coder-ipsum": "^1.1.1"
+    "coder-ipsum": "^1.1.2"
   },
   "devDependencies": {
     "clean-webpack-plugin": "^2.0.1",
