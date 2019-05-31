@@ -1,5 +1,6 @@
 const sampleSize =require('lodash/sampleSize')
 const words = require('./words.json')
+const madLib = require('./madLibPhrases')
 
 function getRandomInt(min = 3, max = 5) {
   return Math.floor(Math.random() * (max - min + 1)) + min
@@ -24,8 +25,11 @@ function paragraph(numSentences = getRandomInt(3, 5)) {
   return sentenceArray.join(' ')
 }
 
+
+
 module.exports = {
   phrase,
   sentence,
-  paragraph
+  paragraph,
+  madLib,
 }

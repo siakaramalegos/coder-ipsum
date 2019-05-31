@@ -2,6 +2,7 @@ const expect = require('chai').expect
 const phrase = require('../index').phrase
 const sentence = require('../index').sentence
 const paragraph = require('../index').paragraph
+const madLib = require('../index').madLib
 
 describe('coder-ipsum', function () {
   describe('#phrase() with no input', function () {
@@ -61,6 +62,14 @@ describe('coder-ipsum', function () {
       // Some words have a period.
       const numPeriods = (paragraph(3).match(/\./g) || []).length
       expect(numPeriods).to.be.at.least(3);
+    });
+  });
+  describe('#madLib()', function () {
+    it('should return a string', function () {
+      expect(madLib()).to.be.a('string');
+    });
+    it('should have a length greater than 12', function () {
+      expect(madLib()).to.have.lengthOf.above(12);
     });
   });
 });
