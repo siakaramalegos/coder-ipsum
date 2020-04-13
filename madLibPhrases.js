@@ -2,7 +2,7 @@
 // noun, language, person, adjective, verb, gerund, phrase, abbreviation
 // combine nouns and languages for now
 const sample = require('lodash/sample')
-const words = require('./wordsSorted')
+const words = require('./wordsSorted.json')
 
 function noun() {
   return sample(words.noun)
